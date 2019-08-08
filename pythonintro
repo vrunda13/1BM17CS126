@@ -1,0 +1,28 @@
+Difference between python2.x  and python3.x
+
+1.Print 
+2.Integer Division
+3.Unicode
+4.Syntax
+5.Rules of ordering Comparisons
+6.Iteration
+7.Exceptions
+8.Leak of variables
+
+Tools for developing python
+
+a)Machine Learning
+1. NumPy
+2. Pandas
+3. Matplotlib
+
+b)AI
+1.AIMA
+2.pyDatalog
+3.SimpleAI 
+4.EasyAI 
+
+c)Deep Learning
+1. TensorFlow
+2. PyTorch 
+3. Apache
