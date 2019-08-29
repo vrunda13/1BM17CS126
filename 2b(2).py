@@ -1,7 +1,6 @@
 a=input("enter the string")
 a=a.split("")
-a=a[-1::-1]
+a=a[-1::-1]s+=x
 s=" "
 for x in a:
-   s+=x
-print(s)
+print(x,end=" ")
