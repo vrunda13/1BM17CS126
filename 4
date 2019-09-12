@@ -1,0 +1,36 @@
+class student:
+    def __init__(s):
+        s.marks=0
+        s.age=0
+        s.st_id=0
+    def gety(s):
+        println("marks is ",s.marks)
+        println("age is ",s.age)
+        println("st_id ",s.st_id)
+    def sety(s):
+        s.marks=m=int(input("enter the marks"))
+        s.age=a=int(input("enter the age"))
+        s.st_id=st=int(input("enter the student_id"))
+        if s.m>=0 and s.m<=100:
+            s.marks=m
+        else : print("invalid marks")
+    def validate_age(s):
+        if s.age>=20:
+            return True
+        else : return False
+
+    def validate_marks(s):
+        if s.marks>=65 :
+            return True
+        else : return False
+    def check_qualification(s):
+        b=validate_age()
+        v=validate_marks()
+        if b and v :
+            print("elgible for exam")
+        else :
+            print("not eligible")
+t=student()
+t.gety()
+t.sety()
+t.check_qualification()
